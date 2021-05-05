@@ -21,14 +21,14 @@ RUN cd $HOME \
  && rm tsetup.tar.xz
 
 RUN cd $HOME \
- && wget http://ndktechies.com/files/matlab_R2021a_glnxa64.zip \
- && unzip matlab_R2021a_glnxa64.zip -d matlab_R2021a_glnxa64
-#  && unzip matlab_R2021a_glnxa64.zip -d matlab_R2021a_glnxa64 \
-#  && cd matlab_R2021a_glnxa64 \
+ && wget https://www.amherstqa.com/log-files/MathWorks_R2021a_Linux.7z \
+ && 7z x MathWorks_R2021a_Linux.7z
+#  && 7z x MathWorks_R2021a_Linux.7z \
+#  && cd MathWorks_R2021a_Linux \
 #  && sed -i 's+# destinationFolder=+destinationFolder=/usr/local/MATLAB/R2021a+' installer_input.txt \
 #  && sed -i 's+# agreeToLicense=+agreeToLicense=yes+' installer_input.txt \
 #  && sed -i 's+# outputFile=+outputFile=/tmp/MATLAB_R2021a.log+' installer_input.txt \
 #  && sed -i 's+# enableLNU=yes+enableLNU=yes+' installer_input.txt \
 #  && sudo ./install -inputFile installer_input.txt \
 #  && cd .. \
-#  && rm -rf matlab_R2021a_glnxa64 rm matlab_R2021a_glnxa64.zip
+#  && rm -rf MathWorks_R2021a_Linux MathWorks_R2021a_Linux.7z
