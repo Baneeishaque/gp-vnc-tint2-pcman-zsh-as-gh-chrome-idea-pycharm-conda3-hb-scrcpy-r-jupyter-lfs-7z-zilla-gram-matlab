@@ -5,13 +5,13 @@ RUN sudo apt update \
      p7zip-full libegl1-mesa-dev \
  && sudo rm -rf /var/lib/apt/lists/*
 
-ARG fileZillaInstallationFileUrl="https://fossies.org/linux/misc/FileZilla_3.54.1_x86_64-linux-gnu.tar.bz2"
-ARG fileZillaInstallationFile="FileZilla_3.54.1_x86_64-linux-gnu.tar.bz2"
+# ARG fileZillaInstallationFileUrl="https://fossies.org/linux/misc/FileZilla_3.54.1_x86_64-linux-gnu.tar.bz2"
+# ARG fileZillaInstallationFile="FileZilla_3.54.1_x86_64-linux-gnu.tar.bz2"
 
-RUN cd $HOME \
- && wget ${fileZillaInstallationFileUrl} \
- && sudo tar -xjvf ${fileZillaInstallationFile} -C /usr/local/ \
- && rm ${fileZillaInstallationFile}
+# RUN cd $HOME \
+#  && wget ${fileZillaInstallationFileUrl} \
+#  && sudo tar -xjvf ${fileZillaInstallationFile} -C /usr/local/ \
+#  && rm ${fileZillaInstallationFile}
 
 RUN cd $HOME \
  && wget https://telegram.org/dl/desktop/linux -O tsetup.tar.xz \
