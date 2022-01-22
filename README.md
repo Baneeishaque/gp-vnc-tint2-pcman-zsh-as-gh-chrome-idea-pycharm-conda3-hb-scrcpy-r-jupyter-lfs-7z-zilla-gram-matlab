@@ -1,4 +1,4 @@
-# Gitpod Full VNC Workspace On User Specified Resolution With Tint2, PCMan File Manager, ZSH with Oh My ZSH, Android Studio, Github CLI, Google Chrome, IntelliJ IDEA, Pycharm, Anaconda3, Android Studio Canary, HandBrake, scrcpy, R, littler, Packrat, JupyterLab, Git LFS, 7z, ~~FileZilla~~, Telegram & ~~Matlab~~
+# Gitpod Full VNC Workspace On User Specified Resolution With Tint2, PCMan File Manager, ZSH with Oh My ZSH, Android Studio, Github CLI, Google Chrome, IntelliJ IDEA, Pycharm, Anaconda3, Android Studio Canary, HandBrake, scrcpy, R, littler, Packrat, JupyterLab, Git LFS, 7z, ~~FileZilla~~, ~~Telegram~~ & ~~Matlab~~
 
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/baneeishaque/gp-vnc-tint2-pcman-zsh-as-gh-chrome-idea-pycharm-conda3-hb-scrcpy-r-jupyter-lfs-7z-zilla-gram-matlab)
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/baneeishaque/gp-vnc-tint2-pcman-zsh-as-gh-chrome-idea-pycharm-conda3-hb-scrcpy-r-jupyter-lfs-7z-zilla-gram-matlab)
@@ -18,7 +18,7 @@
 ### &nbsp;&nbsp; - 7Zip : 16.02
 
 ### &nbsp;&nbsp; - ~~FileZilla : 3.53.1~~
-### &nbsp;&nbsp; - Telegram : 2.7.4
+### &nbsp;&nbsp; - ~~Telegram : 2.7.4~~
 ### &nbsp;&nbsp; - ~~Matlab : R2021a~~
 
 [//]: # "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Baneeishaque/gp-vnc-tint2-pcman-zsh-as-gh-chrome-idea-pycharm-conda3-hb-scrcpy-r-jupyter-lfs-7z-zilla-gram-matlab)"

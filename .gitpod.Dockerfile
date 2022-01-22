@@ -13,10 +13,10 @@ RUN sudo apt update \
 #  && sudo tar -xjvf ${fileZillaInstallationFile} -C /usr/local/ \
 #  && rm ${fileZillaInstallationFile}
 
-RUN cd $HOME \
- && wget https://telegram.org/dl/desktop/linux -O tsetup.tar.xz \
- && sudo tar -xvf tsetup.tar.xz -C /usr/local/ \
- && rm tsetup.tar.xz
+# RUN cd $HOME \
+#  && wget https://telegram.org/dl/desktop/linux -O tsetup.tar.xz \
+#  && sudo tar -xvf tsetup.tar.xz -C /usr/local/ \
+#  && rm tsetup.tar.xz
 
 # RUN cd $HOME \
 #  && wget https://www.amherstqa.com/log-files/MathWorks_R2021a_Linux.7z \
